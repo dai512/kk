@@ -119,11 +119,11 @@ Nodes:
           ProxyProtocolVer: 0 # Send PROXY protocol version, 0 for dsable
       CertConfig:
         CertMode: dns # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
-        CertDomain: "vn.tronggdaii.gq" # Domain to cert
+        CertDomain: "vn.vpnmax5g.xyz" # Domain to cert
         CertFile: /etc/XrayR/cert/node1.test.com.cert # Provided if the CertMode is file
         KeyFile: /etc/XrayR/cert/node1.test.com.key
         Provider: cloudflare # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
         Email: test@me.com
         DNSEnv: # DNS ENV option used by DNS provider
-          CLOUDFLARE_EMAIL: tronggdaii.webb@gmail.com
-          CLOUDFLARE_API_KEY: b16646ec543cfe8fca7285d0af88aef734f63
+          CLOUDFLARE_EMAIL: thanhnammini2001@gmail.com
+          CLOUDFLARE_API_KEY: 776c6a89bcd3ab42c5d6a6b7c3bba68b69b65
